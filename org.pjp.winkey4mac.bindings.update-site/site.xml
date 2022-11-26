@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.pjp.winkey4mac.bindings.feature_1.0.0.qualifier.jar" id="org.pjp.winkey4mac.bindings.feature" version="1.0.0.qualifier">
+      <category name="org.pjp.winkey4mac.bindings"/>
+   </feature>
+   <category-def name="org.pjp.winkey4mac.bindings" label="Windows Key Bindings for MacOS">
+      <description>
+         Windows Key Bindings for MacOS
+      </description>
+   </category-def>
+</site>

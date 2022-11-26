@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.pjp.winkey4mac.bindings
+Bundle-Vendor: Sigasi
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.pjp.winkey4mac.bindings;singleton:=true
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

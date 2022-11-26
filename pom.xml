@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.pjp.winkey4mac</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>Parent</name>
+  <packaging>pom</packaging>
+
+  <modules>
+        <module>org.pjp.winkey4mac.bindings</module>
+        <module>org.pjp.winkey4mac.bindings.feature</module>
+        <module>org.pjp.winkey4mac.bindings.update-site</module>
+  </modules>
+
+  <properties>
+    <tycho-version>0.18.1</tycho-version>
+    <os-jvm-flags/>
+  </properties>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+    	    <configuration>
+    	      <encoding>UTF-8</encoding>
+    	      <showWarnings>true</showWarnings>
+    	    </configuration>
+        <extensions>true</extensions>
+      </plugin>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho-version}</version>
+        <configuration>
+          <resolver>p2</resolver>
+          <environments>
+            <environment>
+              <os>linux</os>
+              <ws>gtk</ws>
+              <arch>x86</arch>
+            </environment>
+            <environment>
+              <os>linux</os>
+              <ws>gtk</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86</arch>
+            </environment>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>macosx</os>
+              <ws>cocoa</ws>
+              <arch>x86_64</arch>
+            </environment>
+          </environments>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>macosx-jvm-flags</id>
+      <activation>
+        <os><family>mac</family></os>
+      </activation>
+      <properties>
+        <os-jvm-flags>-XstartOnFirstThread</os-jvm-flags>
+      </properties>
+    </profile>
+  </profiles>
+</project>

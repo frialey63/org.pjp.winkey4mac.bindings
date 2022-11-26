@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.bindings">
+      <scheme
+          name="WinKey4Mac"
+          description="Windows Key Bindings for MacOS"
+          id="org.pjp.winkey4mac.bindings.winkey4macAcceleratorConfiguration">
+      </scheme>
+        <key commandId="org.eclipse.ui.newWizard" sequence="M1+N" schemeId="org.pjp.winkey4mac.bindings.winkey4macAcceleratorConfiguration" />
+   </extension>
+</plugin>
