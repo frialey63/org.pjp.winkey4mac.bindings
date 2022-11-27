@@ -6,5 +6,5 @@ To activate these key bindings, click <strong>Window > Preferences > General > K
 Update site:
 `http://download.pjp.org/updates/winkey4mac`
 
-To Build:
+To Build on JDK 1.8:
 run: `mvn clean install`

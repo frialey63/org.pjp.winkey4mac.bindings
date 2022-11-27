@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: org.pjp.winkey4mac.bindings
-Bundle-Vendor: Sigasi
+Bundle-Vendor: Parlett
 Bundle-Version: 1.0.0.qualifier
 Bundle-SymbolicName: org.pjp.winkey4mac.bindings;singleton:=true
 Bundle-ActivationPolicy: lazy
