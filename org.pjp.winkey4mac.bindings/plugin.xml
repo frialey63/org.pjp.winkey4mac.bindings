@@ -4,21 +4,30 @@
     <extension point="org.eclipse.ui.bindings">
         <scheme name="WinKey4Mac" description="Windows Key Bindings for MacOS" id="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration"></scheme>
 
+        <!-- Auto::org.eclipse.core.runtime.xml -->
         <key sequence="Ctrl+Shift+D" contextId="org.eclipse.core.runtime.xml" commandId="org.eclipse.m2e.core.ui.command.addDependency" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+P" contextId="org.eclipse.core.runtime.xml" commandId="org.eclipse.m2e.core.ui.command.addPlugin" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
         <key sequence="Ctrl+1" contextId="UNKNOWN" commandId="org.eclipse.jdt.ui.edit.text.java.annotate.classFile" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Debugging -->
         <key sequence="F8" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.Resume" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+R" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.RunToLine" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="F5" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.StepInto" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="F6" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.StepOver" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="F7" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.StepReturn" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+F2" contextId="org.eclipse.debug.ui.debugging" commandId="org.eclipse.debug.ui.commands.Terminate" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
         <key sequence="Ctrl+F5" contextId="UNKNOWN" commandId="org.eclipse.jdt.debug.ui.commands.StepIntoSelection" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Editing Ant Buildfiles -->
         <key sequence="F3" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.open.declaration.command" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Shift+F2" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.openExternalDoc" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+R" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.renameInFile" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+O" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.toggleMarkOccurrences" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+F" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.format" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Editing Java Source -->
         <key sequence="Ctrl+2, T" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.correction.assignInTryWithResources.assist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+2, F" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.correction.assignToField.assist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+2, L" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.correction.assignToLocal.assist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -49,7 +58,10 @@
         <key sequence="Ctrl+Shift+C" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+7" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+/" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
         <key sequence="Ctrl+Shift+Q" contextId="UNKNOWN" commandId="org.eclipse.quickdiff.toggle" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Editing Text -->
         <key sequence="Ctrl+J" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.findIncremental" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+J" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.findIncrementalReverse" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Alt+Down" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.copyLineDown" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -94,8 +106,13 @@
         <key sequence="Ctrl++" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomIn" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+=" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomIn" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+-" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomOut" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Editor Breadcrumb Navigation -->
         <key sequence="Alt+Shift+B" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
         <key sequence="Alt+Enter" contextId="UNKNOWN" commandId="org.eclipse.jdt.debug.ui.breakpoint.properties" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Dialogs and Windows -->
         <key sequence="Ctrl+Shift+D" commandId="org.eclipse.jdt.debug.ui.commands.Display" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+I" commandId="org.eclipse.jdt.debug.ui.commands.Inspect" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+1" commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -118,23 +135,38 @@
         <key sequence="Ctrl+Shift+L" commandId="org.eclipse.ui.window.showKeyAssist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+F10" commandId="org.eclipse.ui.window.showViewMenu" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+F3" commandId="org.eclipse.ui.window.spy" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Diff Viewer -->
         <key sequence="Ctrl+O" contextId="org.eclipse.egit.ui.DiffViewer" commandId="org.eclipse.egit.ui.commit.DiffEditorQuickOutlineCommand" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Generic Code Editor -->
         <key sequence="F3" contextId="org.eclipse.ui.genericeditor.genericEditorContext" commandId="org.eclipse.ui.edit.text.open.hyperlink" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+G" contextId="org.eclipse.ui.genericeditor.genericEditorContext" commandId="org.eclipse.ui.genericeditor.findReferences" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Git Reflog View -->
         <key sequence="Ctrl+C" contextId="org.eclipse.egit.ui.ReflogView" commandId="org.eclipse.egit.ui.internal.reflog.CopyCommand" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+        <!-- In Git Repositories View -->
         <key sequence="Ctrl+Left" contextId="org.eclipse.egit.ui.RepositoriesView" commandId="org.eclipse.egit.ui.RepositoriesViewCollapseWorkingTree" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+C" contextId="org.eclipse.egit.ui.RepositoriesView" commandId="org.eclipse.egit.ui.RepositoriesViewCopyPath" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="F2" contextId="org.eclipse.egit.ui.RepositoriesView" commandId="org.eclipse.egit.ui.team.RenameBranch" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Gradle Tasks View -->
         <key sequence="F5" contextId="org.eclipse.buildship.ui.contexts.taskview" commandId="org.eclipse.buildship.ui.commands.refreshtaskview" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In I/O Console -->
         <key sequence="Ctrl+Z" contextId="org.eclipse.debug.ui.console" commandId="org.eclipse.debug.ui.commands.eof" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+        <!-- In Memory View -->
         <key sequence="Ctrl+Alt+M" contextId="org.eclipse.debug.ui.memoryview" commandId="org.eclipse.debug.ui.commands.addMemoryMonitor" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+W" contextId="org.eclipse.debug.ui.memoryview" commandId="org.eclipse.debug.ui.commands.closeRendering" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+N" contextId="org.eclipse.debug.ui.memoryview" commandId="org.eclipse.debug.ui.commands.newRendering" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Alt+N" contextId="org.eclipse.debug.ui.memoryview" commandId="org.eclipse.debug.ui.commands.nextMemoryBlock" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+T" contextId="org.eclipse.debug.ui.memoryview" commandId="org.eclipse.debug.ui.commands.toggleMemoryMonitorsPane" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+        <!-- In Memory View -->
         <key sequence="Ctrl+G" contextId="org.eclipse.debug.ui.memory.abstractasynctablerendering" commandId="org.eclipse.debug.ui.command.gotoaddress" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+." contextId="org.eclipse.debug.ui.memory.abstractasynctablerendering" commandId="org.eclipse.debug.ui.command.nextpage" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+," contextId="org.eclipse.debug.ui.memory.abstractasynctablerendering" commandId="org.eclipse.debug.ui.command.prevpage" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- In Windows -->
         <key sequence="Alt+Shift+D, Q" commandId="org.eclipse.ant.ui.antShortcut.debug" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+X, Q" commandId="org.eclipse.ant.ui.antShortcut.run" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Alt+X, G" commandId="org.eclipse.buildship.ui.shortcut.test.run" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -254,12 +286,15 @@
         <key sequence="Ctrl+_" commandId="org.eclipse.ui.window.splitEditor" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+{" commandId="org.eclipse.ui.window.splitEditor" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+E" commandId="org.eclipse.ui.window.switchToEditor" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
         <key sequence="Ctrl+Insert" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.copy" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+C" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.copy" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Up" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.maximize" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+V" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.paste" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Shift+Insert" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.paste" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Right" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.quickaccess" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
+
+        <!-- Terminal Typing Connected -->
         <key sequence="Alt+D" contextId="org.eclipse.tm.terminal.TerminalContext" commandId="org.eclipse.tm.terminal.command1" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+B" contextId="org.eclipse.tm.terminal.TerminalContext" commandId="org.eclipse.tm.terminal.command1" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+V" contextId="org.eclipse.tm.terminal.TerminalContext" commandId="org.eclipse.tm.terminal.command1" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
