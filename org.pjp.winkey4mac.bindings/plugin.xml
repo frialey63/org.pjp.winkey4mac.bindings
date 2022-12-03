@@ -21,9 +21,8 @@
         <key sequence="Shift+F2" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.openExternalDoc" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+R" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.renameInFile" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Shift+O" contextId="org.eclipse.ant.ui.AntEditorScope" commandId="org.eclipse.ant.ui.toggleMarkOccurrences" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-        <!--
         <key sequence="Ctrl+Shift+F" contextId="org.eclipse.jdt.ui.AntEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.format" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-        -->
+
         <!-- Editing Java Source -->
         <key sequence="Ctrl+2 T" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.correction.assignInTryWithResources.assist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+2 F" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.correction.assignToField.assist" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -53,11 +52,11 @@
         <key sequence="Alt+Shift+U" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.edit.text.remove.occurrence.annotations" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+F3" contextId="org.eclipse.jdt.ui.javaEditorScope" commandId="org.eclipse.jdt.ui.navigate.java.open.structure" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
 
-        <!-- Editing Properties Files
+        <!-- Editing Properties Files -->
         <key sequence="Ctrl+Shift+C" contextId="org.eclipse.jdt.ui.propertiesEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+7" contextId="org.eclipse.jdt.ui.propertiesEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+/" contextId="org.eclipse.jdt.ui.propertiesEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-        -->
+
         <!-- Editing Text -->
         <key sequence="Ctrl+J" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.findIncremental" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+J" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.findIncrementalReverse" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -103,13 +102,12 @@
         <key sequence="Ctrl++" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomIn" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+=" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomIn" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+-" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.ui.edit.text.zoomOut" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-        <!--
         <key sequence="Ctrl+Shift+F" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.lsp4e.format" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+O" contextId="org.eclipse.ui.textEditorScope" commandId="org.eclipse.lsp4e.symbolinfile" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-        -->
-        <!-- Editor Breadcrumb Navigation
+
+        <!-- Editor Breadcrumb Navigation -->
         <key sequence="Alt+Shift+B" contextId="org.eclipse.jdt.ui.breadcrumbEditorScope" commandId="org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
-         -->
+
         <!-- In Dialogs and Windows -->
         <key sequence="Ctrl+Shift+D" contextId="org.eclipse.ui.contexts.dialogAndWindow" commandId="org.eclipse.jdt.debug.ui.commands.Display" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Ctrl+Shift+I" contextId="org.eclipse.ui.contexts.dialogAndWindow" commandId="org.eclipse.jdt.debug.ui.commands.Inspect" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
@@ -318,6 +316,5 @@
         <key sequence="Shift+Insert" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.paste" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         <key sequence="Alt+Arrow_Right" contextId="UNKNOWN" commandId="org.eclipse.tm.terminal.quickaccess" schemeId="org.pjp.winkey4mac.bindings.winKey4MacAcceleratorConfiguration" />
         -->
-
     </extension>
 </plugin>

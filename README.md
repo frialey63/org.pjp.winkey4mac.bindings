@@ -8,7 +8,7 @@ The key bindings are defined using specific keys (CTRL, ALT, SHIFT) in the Windo
 Update site:
 `http://download.pjp.org/updates/winkey4mac`
 
-To Build on JDK 1.8:
+To build on JDK 1.8:
 run: `mvn clean install`
 
 To perform manual install copy the build artifacts into the `eclipse/dropins` directory and restart Eclipse:
